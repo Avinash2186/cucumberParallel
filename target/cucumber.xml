@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.132">
+<testcase classname="Search Feature on Amazon.com" name="Search Validation with Lego" time="23.889">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User searches for "LEGO"...............................................passed
+Then products related to search must appear.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

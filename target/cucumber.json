@@ -1,0 +1,105 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-27T09:42:37.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4321000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search Validation with Lego",
+        "description": "",
+        "id": "search-feature-on-amazon.com;search-validation-with-lego",
+        "after": [
+          {
+            "result": {
+              "duration": 2449000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.AfterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8328000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinitions.AmazonHomePageSteps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2997000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for \"LEGO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LEGO\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.AmazonHomePageSteps.user_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5778000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "products related to search must appear",
+            "match": {
+              "location": "stepDefinitions.AmazonSearchResultsPage.products_related_to_search_must_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SEARCHITEMS"
+          },
+          {
+            "name": "@SEARCHITEMS1"
+          }
+        ]
+      }
+    ],
+    "name": "Search Feature on Amazon.com",
+    "description": "",
+    "id": "search-feature-on-amazon.com",
+    "keyword": "Feature",
+    "uri": "file:features/AmazonHomePage.feature",
+    "tags": [
+      {
+        "name": "@SEARCHITEMS",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
